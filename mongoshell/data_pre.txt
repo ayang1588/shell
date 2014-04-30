@@ -1,0 +1,14 @@
+db.test.insert({location:'Guangzhou', age:20, name:'j'})
+
+db.test.insert({location:'Guangzhou', age:21, name:'ji'})
+
+db.test.insert({location:'Beijing', age:22, name:'jim'})
+
+db.test.insert({location:'Beijing', age:23, name:'jimv'})
+
+db.test.insert({location:'Guangzhou', age:25, name:'jimvi'})
+
+db.test.insert({location:'Shanghai', age:25, name:'jimvin'})
+
+-----------------------------------------------------------
+mongo dbname --eval "load('test.js')"
